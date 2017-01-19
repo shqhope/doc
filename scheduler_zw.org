@@ -1,0 +1,9 @@
+sdzw
+
+* 2017 01 19 
+** radis
+** kvdb
+** git 
+*** pull
+*** push
+*** remote add
