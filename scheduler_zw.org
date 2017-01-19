@@ -9,6 +9,14 @@ git add -A //allfiles
 git add .  //new file and edited file
 git add -u //edited file and deleted file
 git commmit -a 
+liaoxuefeng
+git status [filename]
+git diff [filename]
+version back
+git log
+git reflog
+git reset --hard HEAD^^
+git reset --hard [head_from_reflog(commited_id)]
 *** pull
 *** push
 *** remote add
