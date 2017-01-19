@@ -8,15 +8,21 @@ sdzw
 git add -A //allfiles
 git add .  //new file and edited file
 git add -u //edited file and deleted file
+*** commit
 git commmit -a 
-liaoxuefeng
+** liaoxuefeng
 git status [filename]
 git diff [filename]
-version back
+*** version back
 git log
 git reflog
 git reset --hard HEAD^^
 git reset --hard [head_from_reflog(commited_id)]
-*** pull
-*** push
-*** remote add
+-----------------------------
+                             HEAD-
+			          \
+work area        stage           master
+-----------------------------
+git checkout -- test.txt ///not add
+git reset --hard HEAD test.txt ///add but not commit
+
