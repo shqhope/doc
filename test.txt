@@ -7,3 +7,4 @@ testcheckout2
 cubie insert2
 
 for test error
+this text is edited in cubieboard
