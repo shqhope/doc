@@ -26,3 +26,21 @@ work area        stage           master
 git checkout -- test.txt ///not add
 git reset --hard HEAD test.txt ///add but not commit
 
+
+* 2017 01 20
+new day start, whether sunny but cold
+** git 
+为什么
+
+** redis
+README.md文档
+启动redis的命令
+http://redis.io/commands
+http://redis.io
+hiredis-master.zip 项目再github上
+** zhcon
+zhcon --utf8 --drv=fb
+zhcon --utf8 --drv=vga
+??命令不支持？ 当前文档编码为gb2312
+** fbterm
+
