@@ -3,3 +3,5 @@ this is a txt file to practice git in my computer
 my stupid boss
 
 testcheckout2
+
+this text is edited in cubieboard
