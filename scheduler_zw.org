@@ -27,7 +27,7 @@ git checkout -- test.txt ///not add
 git reset --hard HEAD test.txt ///add but not commit
 
 
-* 2017 01 20
+* 2017 01 20 NOTDO
 new day start, whether sunny but cold
 ** git 
 为什么
@@ -44,3 +44,11 @@ zhcon --utf8 --drv=vga
 ??命令不支持？ 当前文档编码为gb2312
 ** fbterm
 
+* 2017 01 23
+** kvdb
+做记录，培养习惯。。愁人
+
+** demo
+消息队列研究
+
+** 论坛，看论坛！！！
