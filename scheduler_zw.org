@@ -55,3 +55,6 @@ zhcon --utf8 --drv=vga
 
 ** 论坛，看论坛！！！
 书看书！
+
+* 2017 02 06 
+redhat /etc/X11/xorg.conf 文件保存了 显示器的相关 配置
