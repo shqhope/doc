@@ -66,3 +66,12 @@ zhcon --utf8 --drv=vga
 * 2017 02 06 
 redhat /etc/X11/xorg.conf 文件保存了 显示器的相关 配置
 
+* 2017 02 07
+** redis
+http://hot66hot.iteye.com/blog/2050676
+
+** centos
+暂时不买扩展坞，硬盘了，将windows分10G 给ubuntu
+升级centos6.7到6.8
+升级git版本
+看书，git，redis
