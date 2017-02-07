@@ -2,8 +2,10 @@
 驾照
 各种db
 tree
-centos
-
+centos,lib相关
+git使用
+makefile
+gdb
 
 * 2017 01 19 
 ** radis
