@@ -1,4 +1,9 @@
-sdzw
+2017 goals:
+驾照
+各种db
+tree
+centos
+
 
 * 2017 01 19 
 ** radis
@@ -58,3 +63,4 @@ zhcon --utf8 --drv=vga
 
 * 2017 02 06 
 redhat /etc/X11/xorg.conf 文件保存了 显示器的相关 配置
+
