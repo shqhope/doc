@@ -85,3 +85,8 @@ shell 脚本，执行指令，返回结果判断 cat aaa.txt|grep ip ; if [ $? = 0 ]
 * 2017 03 09
 keyvalue数据库
 全文索引
+
+1/apue了解基本的处理，进程通信，线程，socket
+2/算法，实现二叉树，红黑树等东西
+3/kv数据库
+4/全文索引原理，lucence
