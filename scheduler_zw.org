@@ -75,3 +75,13 @@ http://hot66hot.iteye.com/blog/2050676
 升级centos6.7到6.8
 升级git版本
 看书，git，redis
+为什么
+* 2017 02 11
+http://www.linuxidc.com/Linux/2011-02/32211.htm
+
+* 2017 02 17
+shell 脚本，执行指令，返回结果判断 cat aaa.txt|grep ip ; if [ $? = 0 ]
+
+* 2017 03 09
+keyvalue数据库
+全文索引
