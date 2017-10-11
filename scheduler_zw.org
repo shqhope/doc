@@ -90,3 +90,7 @@ keyvalue数据库
 2/算法，实现二叉树，红黑树等东西
 3/kv数据库
 4/全文索引原理，lucence
+
+* 2017 10 11
+postgres 基本操作
+postgres C++编程接口
