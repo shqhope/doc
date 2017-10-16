@@ -94,3 +94,17 @@ keyvalue数据库
 * 2017 10 11
 postgres 基本操作
 postgres C++编程接口
+
+* 2017 10 16
+postgres_input架构
+	StartPGM
+		读取配置文件
+		检查集群状态
+			执行postgres_function.xml
+		创建表
+		执行定时任务/sdzw/ibp/dictionary/postgres_task.xml
+		扫描文件，把文件放入队列
+		检查连接池信息
+		启动多个处理线程处理文件
+
+* 毕业后太任性了，根本没有什么进步
