@@ -1,0 +1,58 @@
+* Spacemacs Rocks Episode 2 (Day one)
+
+** Install Emacs 
+--Mac
+--Windows
+--Linux(apt get install emacs)
+
+** Go Over the Emacs tutorial 
+--C-h t to open the tutorial.
+--You need be familiar with cursor movement(C-f/C-b/C-n/C-p/C-a/C-e) and basic editing (C-k)
+--You should be familiar with M(eta), s(uper), S(hift), C(trl)
+--Prefix key(c-h is a prefix key) and C-g (C-x C-f)
+
+** Learn to active some build-in functionality (org-mode)
+- linum-mode to display line number (M-x linum-mode)
+- C-x C-f(find/file) to open files, C-x C-s(ave) to save files. (You could also use your mouse to do all the files open)
+- C-h k/C-h v /C-h f (Emacs is a self document, extensible editor.)
+- The key bindings are actually a quick way to command Emacs.
+
+** Learn some elisp(Emacs lisp)
+- use https://learnxinyminutes.com/ to learn emacs lisps
+- elisp language 
+- at least you know how to define variable , function
+- You should know how to make a function callable and how to set a key binding for the function.
+;; This buffer is for notes you don't want to save, and for Lisp evaluation.
+;; If you want to create a file, visit that file with C-x C-f,
+;; then enter the text in that file's own buffer.
+
+(+ 2 2)
+
+(+ 2 (* 3 4))
+
+(setq my-name "shqhope")
+(message my-name)
+
+(defun my-func ()
+  (message "hello, %s" my-name))
+
+(my-func)
+
+(defun my-funcMX ()
+  (interactive)
+  (message "hello meta x functions %s" my-name))
+
+(my-funcMX)
+
+(global-set-key (kbd "<f1>") 'my-funcMX)
+
+** Start to hacking Emacs from the day one !
+- major mode minor mode 
+- turn off tool-bar and scroll bar
+- show linum mode 
+
+** Emacs package system in the first glance 
+- How to use the built-in Package system of Emacs.
+- Install company mode and active it.
+- Major company mode and active it.
+- Happy hacking :)
