@@ -12,6 +12,7 @@
   (interactive)
   (find-file "~/.emacs.d/init.el"))
 
+(global-set-key (kbd "<f4>") 'speedbar-get-focus)
 (global-set-key (kbd "<f2>") 'open-my-init-file)
 (tool-bar-mode -1)
 (scroll-bar-mode t)
@@ -19,6 +20,10 @@
 (global-company-mode t)
 (setq make-backup-files nil)
 (setq inhibit-splash-screen t)
-(setq-default cursor-type 'bar)
-
+(setq default-cursor-type 'bar)
 (recentf-mode t)
+
+
+;;;;加载源码方法,company-mode-master为companymode在github上的源码解压路径，以下两行代码把companymode载入
+;;（add-to-list 'load-path "/root/soft/emacs/emacs-25.1/company-mode-master")
+;;(autoload 'company-mode "company" nil t)
